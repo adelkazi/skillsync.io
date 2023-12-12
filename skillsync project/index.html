@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website</title>
+    <!-- Box Icons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <a href="#" class="logo">Project</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+    </header>
+    <!-- Home  Section-->
+    <section class="home" id="home">
+      <div class="home-text">
+        <h1>Skillsync project</h1>
+        <h2>I created this landing page for my project with Skillsync</h2>
+        <a href="#about" class="btn">learn more</a>
+      </div>
+      <div class="home-img">
+        <img src="images/img.jpg" alt="">
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img
+          src="images/img.png"
+          alt=""
+        />
+      </div>
+      <div class="about-text">
+        <span>About this project</span>
+        <h2>I made this project using html, css and javascript</h2>
+        <p>
+          i made this in vscode using html and for css i used a CSS library
+          called AOS, which helps in the reveal animation. click on this button
+          to see what skills i learned
+        </p>
+        <a href="#skills" class="btn">skills</a>
+      </div>
+    </section>
+    <!-- skill -->
+    <section id="skills">
+        <h1 class="skills-header">skills</h1>
+      <div class="boxes">
+        <div class="box">
+          <img src="images/logo (1).png" alt="" />
+          <h1>HTML</h1>
+          <p>I used HTML for the basic structure of the website</p>
+        </div>
+        <div class="box">
+          <img src="images/logo (3).png" alt="" />
+          <h1>CSS</h1>
+          <p>I used css for styling and a css library called AOS(Animated on scroll) which is for animation.</p>
+        </div>
+        <div class="box">
+          <img src="images/logo (2).png" alt="" />
+          <h1>JavaScript</h1>
+          <p>JavaScript was used for the functionality like the pop-up menu in responsive view and AOS scripts</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact-section -->
+    <section class="contact">
+        <h1>This project was completed by mohammed adil kazi</h1>
+        <div class="socials">
+            <h1>here are my socials</h1>
+            <ul>
+                <a href="https://www.linkedin.com/in/mohammed-adil-kazi-963a9a265/"><li><i class='bx bxl-linkedin-square'></i>linkedin</li></a>
+                <a href="https://www.youtube.com/@mohamedadil7714"><li><i class='bx bxl-youtube' ></i>Youtube</li></a>
+                <a href="https://github.com/adelkazi"><li><i class='bx bxl-github' ></i>github</li></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><li><i class='bx bxl-gmail' ></i>adilkazi117@gmail.com</li></a>
+
+            </ul>
+        </div>
+    </section>
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Link To JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
